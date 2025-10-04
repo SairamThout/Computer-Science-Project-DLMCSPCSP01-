@@ -57,15 +57,18 @@ Data Loading → Preprocessing → Train-Test Split → Model Training → Evalu
 Open Jupyter Notebook
 
 Launch Jupyter Notebook in your environment and open the project notebook (diabetes_prediction.ipynb).
+
 **Upload Dataset**
 Upload the Pima Indians Diabetes Dataset (diabetes.csv) into the same directory as the notebook, or update the file path in the code accordingly.
 
 **Install Required Libraries**
 pip install pandas numpy matplotlib seaborn scikit-learn joblib pytest
+
 **Run the Notebook**
 In the Jupyter menu, go to Kernel > Restart & Run All to execute all cells in order.
 
 This ensures the dataset is loaded, preprocessing is applied, models are trained, evaluated, and validated.
+
 **Output and Results**
 The notebook will generate exploratory analysis plots, performance metrics (accuracy, precision, recall, F1-score, ROC-AUC), and save the best model as a .joblib file for reproducibility.
 
